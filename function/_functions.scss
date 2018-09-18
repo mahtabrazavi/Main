@@ -1,0 +1,7 @@
+/* Sass Document */
+@function check-over-text($bkcolor){
+	@if(lightness($bkcolor)>80){
+	   @return $gray-800;
+	}
+		@return $white;	
+	}
